@@ -2,7 +2,7 @@
 
 ## Clone this repository:
 
-    git clone https://github.com/haowjy/UPDATE THIS LATER
+    git clone https://github.com/Haowjy/Emotion-Webapp.git
 
 ## Create a virtualenv and activate it:
 
