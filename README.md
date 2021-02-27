@@ -11,7 +11,7 @@
 
 ## Install dependencies
 
-    pip3 install -r requirements.txt
+    (python -m) pip install -r requirements.txt
 
 ## Set up Environments variables
 
@@ -23,6 +23,10 @@ or
 ## Run the app
 
     flask run
+
+## Update python imports
+
+    (python -m) pip freeze > requirements.txt
 
 # Flask Tutorial
 https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
