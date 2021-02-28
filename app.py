@@ -5,8 +5,6 @@ import os
 
 import cv2
 
-import tensorflow as tf
-import keras
 from keras.models import load_model
 from keras.preprocessing import image
 
@@ -30,7 +28,7 @@ def emotion_analysis(emotions):
 
     # for ob in range(len(objects[:6])):
     #     print(objects[ob] + ' percentage: ' + str(emotions[ob]))
-    
+
     index,max_val = max(enumerate(emotions[:6]), key=operator.itemgetter(1))
     max_percent = round(max_val*100,1)
     return objects[index] + ' ' + str(max_percent) + '%'
