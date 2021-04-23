@@ -1,5 +1,5 @@
 # Emotion-Webapp
-Simply Machine Learning Flask Webapp
+Simple Machine Learning Flask Webapp
 
 # Set Up Development Environment
 
